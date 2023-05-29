@@ -16,46 +16,51 @@ it pure. Do the following:
 5. Confirm that you function passes the provided unit tests.
 ------------------------------------------------------------------------------*/
 // ! Function under test
+const shoppingCart = ['bananas', 'milk', 'chocolate']
+
 function addToShoppingCart(shoppingCart, item) {
   const newShoppingCart = [...shoppingCart]
-        newShoppingCart.push(item)
-  if (newShoppingCart.length > 3){
+  newShoppingCart.push(item)
+
+  if (newShoppingCart.length > 3) {
     newShoppingCart.shift()
-     } return newShoppingCart
-} const newShoppingCart = ['bananas', 'milk', 'chocolate']
-console.log(addToShoppingCart(newShoppingCart, 'chips'))
+  }
+  return newShoppingCart
+}
+
+console.log(addToShoppingCart(shoppingCart, 'chips'))
 
 // ! Test functions (plain vanilla JavaScript)
 function test1() {
-  console.log(addToShoppingCart(newShoppingCart, 'apple'));
+  console.log(addToShoppingCart(shoppingCart, 'apple'));
   console.assert(addToShoppingCart.length === 2);
 }
 
 function test2() {
-  console.log(addToShoppingCart(newShoppingCart), 'chocolate');
+  console.log(addToShoppingCart(shoppingCart, 'chocolate'));
   // A pure function should return the same result when called with
   // identical arguments. It should also have no side effects (not tested here).
-  const newShoppingCart = ['bananas', 'milk'];
-  const result1 = addToShoppingCart(newShoppingCart, 'chocolate');
-  const result2 = addToShoppingCart(newShoppingCart, 'chocolate');
+  const shoppingCart = ['bananas', 'milk'];
+  const result1 = addToShoppingCart(shoppingCart, 'chocolate');
+  const result2 = addToShoppingCart(shoppingCart, 'chocolate');
   console.assert(JSON.stringify(result1) === JSON.stringify(result2));
   console.assert(
-    JSON.stringify(newShoppingCart) === JSON.stringify(['bananas', 'milk'])
+    JSON.stringify(shoppingCart) === JSON.stringify(['bananas', 'milk'])
   );
 }
 
 function test3() {
-  console.log(addToShoppingCart(newShoppingCart), 'chocolate');
-  const newShoppingCart = ['bananas', 'milk'];
-  const result = addToShoppingCart(newShoppingCart, 'chocolate');
+  console.log(addToShoppingCart(shoppingCart, 'chocolate'));
+  const shoppingCart = ['bananas', 'milk'];
+  const result = addToShoppingCart(shoppingCart, 'chocolate');
   console.assert(result.length === 3);
   console.assert(result.includes('chocolate'));
 }
 
 function test4() {
-  console.log(addToShoppingCart(newShoppingCart), 'waffles');
-  const newShoppingCart = ['bananas', 'milk', 'chocolate'];
-  const result = addToShoppingCart(newShoppingCart, 'waffles');
+  console.log(addToShoppingCart(shoppingCart, 'waffles'));
+  const shoppingCart = ['bananas', 'milk', 'chocolate'];
+  const result = addToShoppingCart(shoppingCart, 'waffles');
   console.assert(result.length === 3);
   console.assert(result.includes('waffles'));
 }

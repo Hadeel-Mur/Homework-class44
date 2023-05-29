@@ -20,10 +20,9 @@ Full description at: https://github.com/HackYourFuture/Homework/tree/main/1-Java
 -----------------------------------------------------------------------------*/
 function giveCompliment(name) {
 const compliments = ['great', 'good', 'awesome', 'brave', 'lovely', 'amazing', 'perfect', 'ideal', 'kind', 'charming']
-const randomCompliment = Math.floor(Math.random() * compliments.length)
-const compliment = compliments[randomCompliment]
-const string = `${name}, you are ${compliment}`
-      return string
+const compliment = compliments[Math.floor(Math.random() * compliments.length)]
+ return `${name}, you are ${compliment}`
+      
 }
 const myName = 'Hadeel'
 console.log(myName)

@@ -30,13 +30,16 @@ const cartForParty = {
 
 function calculateTotalPrice(object){
   let total = 0
-  for (const i in object){
-    total+=object[i]
-  } 
-  const string = `Total: ${total}`
-  return string
+  for (const i in object) {
+    total += object[i];
+  }
+  return total.toFixed(2)
    
 }
+
+const predictedTotal = 9.44;
+const calculateTotal = Number(calculateTotalPrice(cartForParty))
+console.assert(calculateTotal === predictedTotal, `Expected: ${predictedTotal}, Actual: ${calculateTotal}`);
 console.log(calculateTotalPrice(cartForParty))
 
 
@@ -44,11 +47,17 @@ console.log(calculateTotalPrice(cartForParty))
 function test1() {
   console.log(calculateTotalPrice(cartForParty));
   // TODO replace this comment with your code
+  const predictedTotal = '9.44';
+  const calculatedTotal = Number(calculateTotalPrice(cartForParty))
+  console.assert(calculatedTotal === predictedTotal, `Expected: ${predictedTotal}, Actual: ${calculatedTotal}`);
 }
 
 function test2() {
   console.log(calculateTotalPrice(cartForParty));
   // TODO replace this comment with your code
+  const predictedTotal = '8.50';
+  const calculatedTotal = Number(calculateTotalPrice(cartForParty))
+  console.assert(calculatedTotal === predictedTotal, `Expected: ${predictedTotal}, Actual: ${calculatedTotal}`);
 }
 
 function test() {
