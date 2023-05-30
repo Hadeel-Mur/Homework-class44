@@ -24,8 +24,7 @@ function createObservable() {
     },
   };
 }
-createObservable()
-console.log(createObservable(subscribers,'hi'))
+
 
 // ! Do not change or remove the code below
 module.exports = createObservable;

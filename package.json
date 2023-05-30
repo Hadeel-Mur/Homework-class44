@@ -53,7 +53,7 @@
     "fast-glob": "^3.2.12",
     "html-validate": "^7.5.0",
     "inquirer": "^8.0.0",
-    "jest": "^29.0.3",
+    "jest": "^29.5.0",
     "jsdom": "^20.0.0",
     "lodash": "^4.17.21",
     "moment": "^2.29.4",
