@@ -1718,3 +1718,200 @@ Tests:       1 failed, 5 passed, 6 total
 Snapshots:   0 total
 Time:        1.707 s, estimated 2 s
 Ran all test suites matching /ex4-observable.test.js/i.
+2023-06-06 12:34:11 info: ----------------------------------------------
+2023-06-06 12:34:11 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-06-06 12:34:11 info: ----------------------------------------------
+2023-06-06 12:34:19 error: *** Unit Test Error Report ***
+
+✕ giveCompliment should have all TODO comments removed
+✕ giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: HackYourFuture, you are great✕ giveCompliment should have all TODO comments removed
+✕ giveCompliment should take a single parameter
+✕ giveCompliment should include a `compliments` array inside its function body
+✕ giveCompliment the `compliments` array should be initialized with 10 strings
+✕ giveCompliment should give a random compliment: You are `compliment`, `name`!✕ giveCompliment should have all TODO comments removed
+✕ giveCompliment should give a random compliment: You are `compliment`, `name`!
+  Expected: You are great, HackYourFuture!
+  Received: HackYourFuture, you are great
+
+
+Command failed: npx jest ex1-giveCompliment.test.js --colors --reporters="C:\Users\morsh\OneDrive\Desktop\HYF\HOMEWORK-CLASS44\test-runner\CustomReporter.js"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2023-06-06 12:34:23 error: *** ESLint Report ***
+
+ex1-giveCompliment.js
+  21:1  warning  Remove commented-out code  hyf/no-commented-out-code
+  27:1  warning  Remove commented-out code  hyf/no-commented-out-code
+  30:1  warning  Remove commented-out code  hyf/no-commented-out-code
+  34:1  warning  Remove commented-out code  hyf/no-commented-out-code
+  38:1  warning  Remove commented-out code  hyf/no-commented-out-code
+  40:1  warning  Remove commented-out code  hyf/no-commented-out-code
+  46:1  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 7 problems (0 errors, 7 warnings)
+
+
+2023-06-06 12:34:28 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:27:20 - Unknown word (Hadeel)
+ex1-giveCompliment.js:32:22 - Unknown word (Hadeel)
+
+2023-06-06 12:41:13 info: ----------------------------------------
+2023-06-06 12:41:13 info: >>> Running Unit Test `ex2-dogYears` <<<
+2023-06-06 12:41:13 info: ----------------------------------------
+2023-06-06 12:41:21 error: *** Unit Test Error Report ***
+
+✕ calculateDogAge should take a single parameter
+✕ calculateDogAge should give 7 dog years for 1 human year
+✕ calculateDogAge should give 14 dog years for 2 human years
+✕ calculateDogAge give 21 dog years for 3 human years
+
+
+Command failed: npx jest ex2-dogYears.test.js --colors --reporters="C:\Users\morsh\OneDrive\Desktop\HYF\HOMEWORK-CLASS44\test-runner\CustomReporter.js"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2023-06-06 01:00:21 info: ----------------------------------------
+2023-06-06 01:00:21 info: >>> Running Unit Test `ex2-dogYears` <<<
+2023-06-06 01:00:21 info: ----------------------------------------
+2023-06-06 01:00:27 error: *** Unit Test Error Report ***
+
+✕ calculateDogAge should take a single parameter
+✕ calculateDogAge should give 7 dog years for 1 human year
+✕ calculateDogAge should give 14 dog years for 2 human years
+✕ calculateDogAge give 21 dog years for 3 human years
+
+
+Command failed: npx jest ex2-dogYears.test.js --colors --reporters="C:\Users\morsh\OneDrive\Desktop\HYF\HOMEWORK-CLASS44\test-runner\CustomReporter.js"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2023-06-06 01:00:36 error: *** Spell Checker Report ***
+
+ex2-dogYears.js:15:31 - Unknown word (dbtag)
+ex2-dogYears.js:15:41 - Unknown word (dbtag)
+
+2023-06-06 01:02:29 info: ----------------------------------------
+2023-06-06 01:02:29 info: >>> Running Unit Test `ex2-dogYears` <<<
+2023-06-06 01:02:29 info: ----------------------------------------
+2023-06-06 01:02:34 error: *** Unit Test Error Report ***
+
+✕ calculateDogAge should take a single parameter
+✕ calculateDogAge should give 7 dog years for 1 human year
+✕ calculateDogAge should give 14 dog years for 2 human years
+✕ calculateDogAge give 21 dog years for 3 human years
+
+
+Command failed: npx jest ex2-dogYears.test.js --colors --reporters="C:\Users\morsh\OneDrive\Desktop\HYF\HOMEWORK-CLASS44\test-runner\CustomReporter.js"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2023-06-06 01:02:42 error: *** Spell Checker Report ***
+
+ex2-dogYears.js:15:31 - Unknown word (dbtag)
+ex2-dogYears.js:15:41 - Unknown word (dbtag)
+
+2023-06-06 02:58:33 info: ----------------------------------------
+2023-06-06 02:58:33 info: >>> Running Unit Test `ex2-dogYears` <<<
+2023-06-06 02:58:33 info: ----------------------------------------
+2023-06-06 02:58:41 error: *** Unit Test Error Report ***
+
+✕ calculateDogAge should take a single parameter
+✕ calculateDogAge should give 7 dog years for 1 human year
+✕ calculateDogAge should give 14 dog years for 2 human years
+✕ calculateDogAge give 21 dog years for 3 human years
+
+
+Command failed: npx jest ex2-dogYears.test.js --colors --reporters="C:\Users\morsh\OneDrive\Desktop\HYF\HOMEWORK-CLASS44\test-runner\CustomReporter.js"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2023-06-06 02:58:49 error: *** Spell Checker Report ***
+
+ex2-dogYears.js:53:48 - Unknown word (tobe)
+ex2-dogYears.js:58:49 - Unknown word (tobe)
+
+2023-06-06 02:59:17 info: ----------------------------------------
+2023-06-06 02:59:17 info: >>> Running Unit Test `ex2-dogYears` <<<
+2023-06-06 02:59:17 info: ----------------------------------------
+2023-06-06 02:59:23 error: *** Unit Test Error Report ***
+
+✕ calculateDogAge should take a single parameter
+✕ calculateDogAge should give 7 dog years for 1 human year
+✕ calculateDogAge should give 14 dog years for 2 human years
+✕ calculateDogAge give 21 dog years for 3 human years
+
+
+Command failed: npx jest ex2-dogYears.test.js --colors --reporters="C:\Users\morsh\OneDrive\Desktop\HYF\HOMEWORK-CLASS44\test-runner\CustomReporter.js"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2023-06-06 03:00:57 info: ----------------------------------------
+2023-06-06 03:00:57 info: >>> Running Unit Test `ex2-dogYears` <<<
+2023-06-06 03:00:57 info: ----------------------------------------
+2023-06-06 03:01:03 error: *** Unit Test Error Report ***
+
+✕ calculateDogAge should take a single parameter
+✕ calculateDogAge should give 7 dog years for 1 human year
+✕ calculateDogAge should give 14 dog years for 2 human years
+✕ calculateDogAge give 21 dog years for 3 human years
+
+
+Command failed: npx jest ex2-dogYears.test.js --colors --reporters="C:\Users\morsh\OneDrive\Desktop\HYF\HOMEWORK-CLASS44\test-runner\CustomReporter.js"
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+2023-06-06 03:01:11 error: *** Spell Checker Report ***
+
+ex2-dogYears.js:2:73 - Unknown word (colouring)
+ex2-dogYears.js:8:50 - Unknown word (MIMICING)
+ex2-dogYears.js:16:50 - Unknown word (MIMICING)
+ex2-dogYears.js:29:140 - Unknown word (colour)
+ex2-dogYears.js:38:29 - Unknown word (dbtag)
+ex2-dogYears.js:38:39 - Unknown word (dbtag)
+
