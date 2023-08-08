@@ -19,11 +19,11 @@ Full description at: https://github.com/HackYourFuture/Homework/blob/main/3-Usin
 ------------------------------------------------------------------------------*/
 function requestData(url) {
   // TODO return a promise using `fetch()`
-  return Promise((resolve, reject)=>{
+  return new Promise((resolve, reject)=>{
    fetch(url)
    .then((response)=>{
      if(!response.ok) {
-      throw error(`something went wrong!`)
+      throw new error(`something went wrong!`)
      }
      return response.json()
    })
@@ -46,9 +46,9 @@ function renderImage(data) {
 
 function renderError(error) {
   // TODO render the error to the DOM
-  const error = document.createElement('h1')
-  error.textContent = error.message
-  document.body.appendChild(error)
+  const err = document.createElement('h1')
+  err.textContent = error.message
+  document.body.appendChild(err)
   console.log(error);
 }
 
